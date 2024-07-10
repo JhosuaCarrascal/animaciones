@@ -1,0 +1,28 @@
+body{
+    background-image: url(img/sky.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.fondo {
+    display: flex;
+    flex-direction: column ;
+}
+.n1 {
+    height: 22vw;
+    width: 35vw;
+    animation: nb 10s infinite;
+}
+.n2 {
+    height: 12vw;
+    width: 24vw;
+    animation: nb 5s infinite;
+}
+@keyframes nb {
+    from {
+        margin-left: -20%;
+    }
+    to{
+        margin-left: 110%;
+    }
+    
+}

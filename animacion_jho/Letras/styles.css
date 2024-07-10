@@ -1,0 +1,87 @@
+body {
+  font-family: 'Alfa Slab One', ;
+  font-size:6rem;
+  background:#2c333a;
+}
+.let{
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.lt1{
+  justify-content: center;
+  align-items: center;
+  height: 2em;
+  color: violet;
+  animation-name: MA;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+}
+.lt2 {
+  height: 2em;
+  color: violet;
+  animation-name: MA;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  display: inline-block;
+
+}
+.lt3 {
+  height: 2em;
+  color: violet;
+  animation-name: MA;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  display: inline-block;
+}
+.lt4 {
+  height: 2em;
+  color: violet;
+  animation-name: MA;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  display: inline-block;
+}
+.lt5 {
+  height: 2em;
+  color: violet;
+  animation-name: MA;
+  animation-duration: 6s;
+  animation-timing-function: linear;
+  display: inline-block;
+}
+.lt6 {
+  height: 2em;
+  color: violet;
+  animation-name: MA;
+  animation-duration: 7s;
+  animation-timing-function: linear;
+  display: inline-block;
+}
+.lt7 {
+  height: 2em;
+  color: violet;
+  animation-name: MA;
+  animation-duration: 8s;
+  animation-timing-function: linear;
+  display: inline-block;
+}
+
+@keyframes MA {
+  100%
+    {
+      transform: rotatex(-180deg); 
+    }
+  
+}
+
+
+
+
+
+
+
+
+
+
